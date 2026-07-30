@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Saad Ali - Portfolio</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #0a0a1a 0%, #1a1a3a 100%);
+    color: white;
+    text-align: center;
+}
+.navbar { padding: 20px; background: rgba(0,0,0,0.4); }
+.logo { color: #00f0ff; font-size: 28px; font-weight: bold; }
+.hero { padding: 80px 20px; }
+
+/* یہ نئی چیز ہے pic کے لیے */
+.my-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* گول pic */
+    border: 4px solid #00f0ff;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hero h1 { font-size: 40px; color: #00f0ff; margin-bottom: 10px; }
+.skills { padding: 50px 20px; }
+.skills h2 { font-size: 30px; margin-bottom: 30px; }
+.skill-boxes { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.box {
+    background: rgba(0,240,255,0.1); 
+    border: 2px solid #00f0ff;
+    padding: 30px; 
+    border-radius: 15px; 
+    width: 220px;
+}
+.my-photo{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid:#00f0ff
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow:0 0 25px#00f0ff
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <h2 class="logo">&lt;Saad.Dev /&gt;</h2>
+</div>
+
+<div class="hero">
+    <!-- یہاں تمہاری pic آئے گی -->
+    <img src="pic.jpg.jpeg" alt="Saad Ali" class="my-photo">
+    
+    <h1>I'm <span>Saad Ali</span></h1>
+    <p>From Narowal | Matric Student | Future Web Developer</p>
+</div>
+
+<div class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-boxes">
+        <div class="box"><b>Front-end</b><br>HTML, CSS</div>
+        <div class="box"><b>Back-end</b><br>Learning</div>
+        <div class="box"><b>Tools</b><br>MS Word, Excel</div>
+    </div>
+</div>
+
+</body>
+</html>
